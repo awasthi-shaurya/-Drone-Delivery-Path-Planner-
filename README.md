@@ -1,4 +1,4 @@
-Drone Delivery Path Planner (C Project)
+ Drone Delivery Path Planner (C Project)
 
 This project is a multi-file C application that simulates an optimized drone delivery routing system.  
 It uses package coordinates, weight, and priority to plan delivery trips within drone capacity.
@@ -6,7 +6,6 @@ It uses package coordinates, weight, and priority to plan delivery trips within 
 This project is developed as part of B.Tech 1st Semester – Problem Solving with C and demonstrates  
 the use of structures, 2D arrays, functions, pointers, dynamic memory allocation, and modular programming.
 
----
 Features
 
 -  Multi-file C project (4 members can contribute separately)
@@ -20,6 +19,27 @@ Features
 -  Undeliverable package detection  
 - Final delivery summary report  
 
----
+File Structure
 
-📂 Project Structure
+Drone-Delivery-Path-Planner/
+│
+├── src/
+│   ├── main.c               
+│   ├── distance.c           
+│   ├── planner.c            
+│   ├── utils.c         
+│   ├── distance.h
+│   ├── planner.h
+│   └── utils.h
+│
+├── README.md
+├── Makefile
+
+
+
+
+AUTHOR
+⦁	Shaurya Awasthi
+⦁	Kuwar Kartikey Singh
+⦁	Atharv Garg
+⦁	Aniket
